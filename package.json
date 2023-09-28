@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"webpack --watch --mode=development\" \"nodemon -q dist/index.js\"",
+    "dev": "nodemon server.js",
     "build": "webpack --mode=production",
-    "start": "node dist/index.js",
+    "start": "node server.js",
     "format": "npx prettier --write ."
   },
   "keywords": [],

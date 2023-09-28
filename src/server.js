@@ -1,6 +1,6 @@
-import tmi from "tmi.js";
-import io from "socket.io-client";
-import dotenv from "dotenv";
+const tmi = require("tmi.js");
+const io = require("socket.io-client");
+const dotenv = require("dotenv");
 
 dotenv.config();
 

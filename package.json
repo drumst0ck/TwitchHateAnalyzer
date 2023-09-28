@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "build": "webpack --mode=production",
-    "start": "node server.js",
+    "start": "node src/server.js",
     "format": "npx prettier --write ."
   },
   "keywords": [],

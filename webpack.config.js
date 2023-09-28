@@ -7,7 +7,7 @@ module.exports = {
   externalsPresets: {
     node: true,
   },
-  entry: "./src/index.ts",
+  entry: "./src/server.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",

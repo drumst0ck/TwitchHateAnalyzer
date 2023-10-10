@@ -25,5 +25,9 @@ client.on("message", (_, tags, message, self) => {
 
   console.log(`${tags.username} said: '${message}' ✍️`);
 
-  socket.emit("chat-message", message);
+  socket.emit("chat-message", {
+    username: tags.username,
+    message,
+    canal: process.env.TWITCH_CHANNEL,
+  });
 });

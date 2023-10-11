@@ -30,5 +30,8 @@ client.on("message", (_, tags, message, self) => {
     username: tags.username,
     message,
     canal: process.env.TWITCH_CHANNEL,
+    subscriber: tags.subscriber,
+    mod: tags.mod,
+    roomId: tags["room-id"],
   });
 });

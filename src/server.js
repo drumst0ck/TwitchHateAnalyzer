@@ -34,5 +34,7 @@ client.on("message", (_, tags, message, self) => {
     mod: tags.mod,
     roomId: tags["room-id"],
     firstMsg: tags["first-msg"],
+    turbo: tags.turbo,
+    userId: tags["user-id"],
   });
 });

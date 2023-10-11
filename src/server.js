@@ -33,5 +33,6 @@ client.on("message", (_, tags, message, self) => {
     subscriber: tags.subscriber,
     mod: tags.mod,
     roomId: tags["room-id"],
+    firstMsg: tags["first-msg"],
   });
 });

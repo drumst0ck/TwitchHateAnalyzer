@@ -21,6 +21,7 @@ const socket = io(process.env.SOCKETIO_URL ?? "", {
 client.connect().catch(console.error);
 
 client.on("message", (_, tags, message, self) => {
+  console.log(tags, message, self);
   if (self) return;
 
   console.log(`${tags.username} said: '${message}' ✍️`);

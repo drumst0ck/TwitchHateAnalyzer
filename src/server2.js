@@ -9,7 +9,19 @@ const client = new tmi.Client({
     username: process.env.TWITCH_USERNAME ?? "",
     password: process.env.TWITCH_OAUTH_TOKEN ?? "",
   },
-  channels: [process.env.TWITCH_CHANNEL ?? ""],
+  channels: [
+    "midudev",
+    "revenant",
+    "knekro",
+    "reventxz",
+    "jujalag",
+    "sergiofferra",
+    "ibai",
+    "illojuan",
+    "baitybait",
+    "werlyb",
+    "el_yuste",
+  ],
 });
 
 const socket = io(process.env.SOCKETIO_URL ?? "", {

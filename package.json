@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon src/server2.js && nodemon src/server.js ",
+    "dev": "nodemon src/server2.js ",
     "build": "webpack --mode=production",
     "start": "node src/server2.js",
     "format": "npx prettier --write ."

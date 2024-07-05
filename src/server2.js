@@ -21,6 +21,13 @@ const client = new tmi.Client({
     "baitybait",
     "werlyb",
     "el_yuste",
+    "zeling",
+    "cabolo",
+    "toadamarillo",
+    "send0o",
+    "elBokeron",
+    "esportmaniacos",
+    "adcshiiro",
   ],
 });
 
